@@ -8,12 +8,14 @@ import { SharedModule } from './components/shared/shared.module';
 
 // Componentes
 import { LoginComponent } from './components/login/login.component';
+import { CustomerComponent } from './components/customer/customer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
+    CustomerComponent,
   ],
   imports: [
     BrowserModule,
